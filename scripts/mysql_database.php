@@ -113,13 +113,17 @@
 
         public function getCustInfo(){
             $r = array();
-            $ans = $this->query("SELECT firstname, lastname, phone, email, name FROM custinfo c, room r where c.roomid = r.id order by date desc");
+            $ans = $this->query("SELECT c.id, firstname, lastname, phone, email, name, confirmed FROM custinfo c, room r where c.roomid = r.id order by date desc");
             $n = mysql_num_rows($ans);
             for($i=0;$i<$n;$i++)
             {
                 $r[$i] = mysql_fetch_assoc($ans);
             }
             return $r;
+        }
+
+        public function findCust($id){
+            return $this->extract_record($this->query("SELECT name,confirmed FROM custinfo c, room r where c.id = $id"));
         }
 
         public function getRoomNames()
@@ -150,7 +154,7 @@
 		function CheckLoginInDB($username,$password)
 		{
 			$pwdmd5 = md5($password);
-			$sql = "Select firstName, rights from users where userId='$username' and password='$pwdmd5'";
+			$sql = "Select username from users where username='$username' and password='$pwdmd5'";
 			$result = $this->query($sql);
 			if(!$result || mysql_num_rows($result) <= 0)
 			{
