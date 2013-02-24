@@ -111,9 +111,20 @@
             return $r;
         }
 
+        public function getRoomInfo(){
+            $r = array();
+            $ans = $this->query("SELECT * FROM room");
+            $n = mysql_num_rows($ans);
+            for($i=0;$i<$n;$i++)
+            {
+                $r[$i] = mysql_fetch_assoc($ans);
+            }
+            return $r;
+        }
+
         public function getCustInfo(){
             $r = array();
-            $ans = $this->query("SELECT c.id, firstname, lastname, phone, email, name, confirmed FROM custinfo c, room r where c.roomid = r.id order by date desc");
+            $ans = $this->query("SELECT c.id, firstname, lastname, phone, email, name, confirmed, number FROM custinfo c, room r where c.roomid = r.id order by date desc");
             $n = mysql_num_rows($ans);
             for($i=0;$i<$n;$i++)
             {
@@ -123,7 +134,7 @@
         }
 
         public function findCust($id){
-            return $this->extract_record($this->query("SELECT name,confirmed FROM custinfo c, room r where c.id = $id"));
+            return $this->extract_record($this->query("SELECT r.name,c.confirmed FROM custinfo c, room r where c.id = $id and c.roomid = r.id"));
         }
 
         public function getRoomNames()
