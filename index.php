@@ -1,4 +1,18 @@
-<!DOCTYPE html>
+<?php 
+	require 'scripts/mysql_database.php';
+	$rooms = $database->getRoomData();
+//	var_dump($rooms);
+	if(isset($_POST['fname'])){
+		$fname = $_POST['fname'];
+		$lname = $_POST['lname'];
+		$email = $_POST['email'];
+		$phone = $_POST['phone'];
+		$room = $_POST['room_type'];
+		$sql = "INSERT INTO custInfo(`firstname`,`lastname`,`email`,`phone`,`roomid`) VALUES ('$fname','$lname','$email','$phone','$room')";
+		$database->query($sql);
+		$flash_data = "Put here some message to show the reservation was successful";
+	}
+?>
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="master.css">
@@ -19,7 +33,7 @@
 				
 				<ul class="nav">
 				<li> <a href="#"> <span class ="toptext"> home</span> <span class ="bottomtext"> home</span></a></li>
-				<li> <a href="#"> <span class ="toptext"> accomodations </span> <span class ="bottomtext"> View our rooms</span></a></li>
+				<li> <a href="#"> <span class ="toptext"> accomadations </span> <span class ="bottomtext"> View our rooms</span></a></li>
 				<li> <a href="#"> <span class ="toptext"> Reservations </span> <span class ="bottomtext"> Book a room now</span></a></li>
 				<li> <a href="#"> <span class ="toptext"> Gallery </span> <span class ="bottomtext"> take a look at our rooms</span></a></li>
 				<li> <a href="#"> <span class ="toptext"> Contact Us</span> <span class ="bottomtext"> gives us a Call</span></a></li>
@@ -46,7 +60,7 @@
         </div>
             
 </div>
-		<div id="mid_menu"></div>
+		<div id="mid_menu"><?php if(isset($flash_data)) echo $flash_data; ?></div>
 		<div id="mid_content">
 			<div id= "content_left">
 				<h1> A Luxury guest house in Kampala,Uganda. </h1>
@@ -80,21 +94,22 @@ Stay relaxed, stay productive, and stay in the heart of it all at our Bed and Br
 			<div id= "content_right">
 				<div id="reservation">
 					<h4 class="header"> Make a reservation today </h4>
-     <form action="sendrequest.php" method="post" enctype="multipart/form-data" id="quote"> 
+     <form action="index.php" method="post" enctype="multipart/form-data" id="quote"> 
              <p>
-               <select name="qoute_type"> 
-                 <option value="translation">Type of Room</option> 
-                 <option value="interpretation">Self Contained</option> 
-                 <option value="general">option</Public>
+               <select name="room_type"> 
+                 <option>Type of Room</option>
+                 <?php foreach($rooms as $room){  ?>
+                 <option value="<?php echo $room['id'] ?>"><?php echo $room['name'] ?></option>
+                 <?php } ?>
                </select>  
-               <label for="Client_name" > Name</label> 
-               <input id="Client_name" name="Client_name" type="text" /> 
+               <label for="fname" >First Name</label> 
+               <input id="fname" name="fname" type="text" />
+               <label for="lname" >Last Name</label> 
+               <input id="lname" name="lname" type="text" /> 
                <label for="Email_Address"> Email Address</label> 
-               <input id="Email_Address" name="Email_Address" type="text" /> 
-               
-               <label for="Source_lang"> Phone Number</label> 
-               <input id="Source_lang" name="Source_lang" type="text" /> 
-              
+               <input id="Email_Address" name="email" type="text" />                
+               <label for="phone"> Phone Number</label> 
+               <input id="phone" name="phone" type="text" />              
              </p>
              <p>
                <input id="submit_btn" class="button" name="submit" type="submit" value="Send" />
@@ -126,28 +141,29 @@ Stay relaxed, stay productive, and stay in the heart of it all at our Bed and Br
     <script type="text/javascript">
     $(window).load(function() {
         $('#slider').nivoSlider({
-effect: 'random', // Specify sets like: 'fold,fade,sliceDown'
-        slices: 15, // For slice animations
-        boxCols: 8, // For box animations
-        boxRows: 4, // For box animations
-        animSpeed: 500, // Slide transition speed
-        pauseTime: 8000, // How long each slide will show
-        startSlide: 0, // Set starting Slide (0 index)
-        directionNav: true, // Next & Prev navigation
-        controlNav: false, // 1,2,3... navigation
-        controlNavThumbs: false, // Use thumbnails for Control Nav
-        pauseOnHover: true, // Stop animation while hovering
-        manualAdvance: false, // Force manual transitions
-        prevText: 'Prev', // Prev directionNav text
-        nextText: 'Next', // Next directionNav text
-        randomStart: false, // Start on a random slide
-        beforeChange: function(){}, // Triggers before a slide transition
-        afterChange: function(){}, // Triggers after a slide transition
-        slideshowEnd: function(){}, // Triggers after all slides have been shown
-        lastSlide: function(){}, // Triggers when last slide is shown
-        afterLoad: function(){} // Triggers when slider has loaded
+			effect: 'random', // Specify sets like: 'fold,fade,sliceDown'
+	        slices: 15, // For slice animations
+	        boxCols: 8, // For box animations
+	        boxRows: 4, // For box animations
+	        animSpeed: 500, // Slide transition speed
+	        pauseTime: 8000, // How long each slide will show
+	        startSlide: 0, // Set starting Slide (0 index)
+	        directionNav: true, // Next & Prev navigation
+	        controlNav: false, // 1,2,3... navigation
+	        controlNavThumbs: false, // Use thumbnails for Control Nav
+	        pauseOnHover: true, // Stop animation while hovering
+	        manualAdvance: false, // Force manual transitions
+	        prevText: 'Prev', // Prev directionNav text
+	        nextText: 'Next', // Next directionNav text
+	        randomStart: false, // Start on a random slide
+	        beforeChange: function(){}, // Triggers before a slide transition
+	        afterChange: function(){}, // Triggers after a slide transition
+	        slideshowEnd: function(){}, // Triggers after all slides have been shown
+	        lastSlide: function(){}, // Triggers when last slide is shown
+	        afterLoad: function(){} // Triggers when slider has loaded
 
         });
+		
     });
     </script> 
     
