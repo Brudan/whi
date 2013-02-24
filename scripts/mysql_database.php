@@ -113,7 +113,7 @@
 
         public function getCustInfo(){
             $r = array();
-            $ans = $this->query("SELECT firstname, lastname, phone, email, name FROM custinfo c, room r where c.roomid = r.id");
+            $ans = $this->query("SELECT firstname, lastname, phone, email, name FROM custinfo c, room r where c.roomid = r.id order by date desc");
             $n = mysql_num_rows($ans);
             for($i=0;$i<$n;$i++)
             {
