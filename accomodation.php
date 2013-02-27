@@ -18,28 +18,28 @@
 <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-
+<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="js/jquery.infinitecarousel3.min.js"></script>
 <script src="js/lightbox.js"></script>
     <link href="css/lightbox.css" rel="stylesheet" />
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript" src="js/jquery.quovolver.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+
  </head>
 <body>
-	<div class="main_wrapper1">
+	<div class="main_wrapper1" >
 			<div id = "header">
+				
 				<div class="logo">
 					<img src="images/logo.png" />
 				</div>
 			</div>
 		<div id="Main_Nav">
 			<div class="align">
-				
 				<ul class="nav">
 				<li> <a href="index.php"> <span class ="toptext"> home</span> <span class ="bottomtext"> home</span></a></li>
-				<li> <a href="accomodation.php"> <span class ="toptext"> Accomodations </span> <span class ="bottomtext"> View our rooms</span></a></li>
+				<li> <a href="accomodation.php"> <span class ="toptext"> accomodations </span> <span class ="bottomtext"> View our rooms</span></a></li>
 				<li> <a href="#"> <span class ="toptext"> Reservations </span> <span class ="bottomtext"> Book a room now</span></a></li>
 				<li> <a href="contact.html"> <span class ="toptext"> Contact Us</span> <span class ="bottomtext"> gives us a Call</span></a></li>
 			</ul>
@@ -49,17 +49,12 @@
 		</div>
 
 	</div>
-	<div class="main_wrapper">
+	<div class="main_wrapper" style="height: 1450px">
 	
 		<div class="slider-wrapper theme-default">
       <div id="slider" class="nivoSlider">
-          <a href="#"><img src="images/6.jpg" alt=""  /></a>
-          <img src="images/8.jpg" alt=""  />
-          <img src="images/3.jpg" alt=""  />
-          <img src="images/5.jpg" alt=""  />
-          <img src="images/6.jpg" alt=""  />
-         
-          <img src="images/1.jpg" alt=""  />
+          <a href="#"><img src="images/8.jpg" alt=""  /></a>
+
           
         </div>
             
@@ -67,38 +62,53 @@
 		<div id="mid_menu"></div>
 		<div id="mid_content">
 			<div id= "content_left">
-				<h1> A Luxury guest house in Kampala,Uganda. </h1>
-				<h2> Welcome to WHI Guest Services </h2>
+				<h1> Accomodation </h1>
+				<h2> Deluxe Rooms </h2>
 				<p>  Discover a secret gem in the heart of Kampala. <br />
 					<div>
-						<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at odio ut felis euismod fringilla. Nunc dictum dolor elit, vitae tempor felis. Fusce blandit mattis sem nec tempor. Sed at convallis elit. Fusce congue, sem nec pretium tristique, velit elit auctor tellus, id pulvinar enim lacus eget sem. Mauris et nisl augue, sed porttitor orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-</p>
+						<div class="acco_item">
+							<img src="images/room1.png" />
 
-<p>
-Maecenas purus nisl, ultrices et vulputate id, pretium eu velit. In in nibh quis elit pretium semper sed sed nibh. Fusce ac aliquet erat. Suspendisse eu eros sem. Nullam malesuada tempor ante ut tempor. Aliquam in ipsum augue. Nunc congue lectus at ligula sodales vehicula. Integer at augue turpis, nec dapibus tortor. Pellentesque vestibulum neque id felis dictum et faucibus est facilisis. Integer tempus, dolor id porttitor convallis, dolor justo dignissim purus, in eleifend leo leo eget est.  <br />
-</p>
+							<p>
+ Whether you want to explore the city or experience an efficient business trip, our Flatiron hotel has the comfortable accommodations, thoughtful amenities and signature NYC style needed to serve as a convenient hub. Enjoy easy access to the Empire State Building, Fifth Avenue shopping, MoMA, and corporations such as Bank of America, JPMorgan Chase and Deloitte, along with unparalleled personal service and amenities.
 
-<p> 
-Morbi adipiscing turpis in ligula consequat venenatis ac et augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris scelerisque libero nec sem facilisis et placerat lorem ultricies. Duis rhoncus sollicitudin nisi, non venenatis nisi aliquam vitae. Maecenas adipiscing aliquet malesuada. Etiam nisi tortor, viverra quis laoreet sit amet, iaculis nec justo. Nunc imperdiet neque ut elit feugiat eget eleifend ligula posuere. Etiam varius faucibus nisi nec condimentum. Duis bibendum tortor nec massa congue porttitor.
+To learn more about our Manhattan luxury hotel, please reach out to one of our friendly team member
 </p>
+						</div>
 
-Stay relaxed, stay productive, and stay in the heart of it all at our Bread and Breakfast.</p>
+						<h2> Double Rooms</h2>
+						<div class="acco_item">
+							<img src="images/room2.png" />
+
+							<p>
+ Whether you want to explore the city or experience an efficient business trip, our Flatiron hotel has the comfortable accommodations, thoughtful amenities and signature NYC style needed to serve as a convenient hub. Enjoy easy access to the Empire State Building, Fifth Avenue shopping, MoMA, and corporations such as Bank of America, JPMorgan Chase and Deloitte, along with unparalleled personal service and amenities.
+
+To learn more about our Manhattan luxury hotel, please reach out to one of our friendly team member
+</p>
+						</div>
+
+<h2> Single Rooms</h2>
+						<div class="acco_item">
+							<img src="images/room3.png" />
+
+							<p>
+ Whether you want to explore the city or experience an efficient business trip, our Flatiron hotel has the comfortable accommodations, thoughtful amenities and signature NYC style needed to serve as a convenient hub. Enjoy easy access to the Empire State Building, Fifth Avenue shopping, MoMA, and corporations such as Bank of America, JPMorgan Chase and Deloitte, along with unparalleled personal service and amenities.
+
+To learn more about our Manhattan luxury hotel, please reach out to one of our friendly team member
+</p>
+						</div>
+
+
 
 					</div>
-					<div class="mini_footer">
-						<ul>
-							<li> <a href="#"> <img src="images/about.png"> </a> </li>
-							<li> <a href="#"> <img src="images/contact.png"> </a> </li>
-							<li> <a href="#"> <img src="images/gallery.png"> </a> </li>
-						</ul>
-					</div>
+				
+		
 
 			</div>
 			<div id= "content_right">
 				<div id="reservation">
 					<h4 class="header"> Make a reservation today </h4>
-     <form action="index.php" method="post" enctype="multipart/form-data" id="quote"> 
+     <form action="accomodation.php" method="post" enctype="multipart/form-data" id="quote"> 
              <p>
                <select name="room_type"> 
                  <option>Type of Room</option>
@@ -145,15 +155,19 @@ Stay relaxed, stay productive, and stay in the heart of it all at our Bread and 
 					
 				</div>
 			</div>
+			
+				
+			</div>
 		</div>
 	
 	</div>
 					<div id="footer">
+						
 						<div class="align2">
 				<div id="align">
 					<ul class="nav2">
 				<li> <a href="index.php">  Home </a></li>
-				<li> <a href="accomodation.php"> Accomodations  </a></li>
+				<li> <a href="accomodation.php"> Accomadations  </a></li>
 				<li> <a href="#"> Reservations  </a></li>
 				<li> <a href="contact.html">  Contact Us </a></li>
 				</ul>
@@ -171,7 +185,6 @@ Website Design & Full-Service Hosting by <a href=""> Brudan Digital</a>
 
 			</div>
 			</div>
-
 					</div>
 <script type="text/javascript" src="nivo-slider/jquery-1.6.1.min.js"></script>
     <script type="text/javascript" src="nivo-slider/jquery.nivo.slider.pack.js"></script>
@@ -185,7 +198,7 @@ effect: 'random', // Specify sets like: 'fold,fade,sliceDown'
         animSpeed: 500, // Slide transition speed
         pauseTime: 8000, // How long each slide will show
         startSlide: 0, // Set starting Slide (0 index)
-        directionNav: true, // Next & Prev navigation
+        directionNav: false, // Next & Prev navigation
         controlNav: false, // 1,2,3... navigation
         controlNavThumbs: false, // Use thumbnails for Control Nav
         pauseOnHover: true, // Stop animation while hovering
