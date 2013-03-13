@@ -157,7 +157,7 @@ P.O. Box 16233 <br />
 Kampala, Uganda <br />
 Email: info@whiguestservices.com <br />
 Tel : + (256) 414-541-361 Tel 2: + (256) 772-520-248 Tel 3: + (256) 312-165-050 <br />
-Website Design & Full-Service Hosting by <a href=""> Brudan Digital</a> 
+Website Design & Full-Service Hosting by <a href="http://www.brudan.net" target="new"> Brudan Digital</a> 
 
 </p>
 
