@@ -18,7 +18,9 @@
 <script src="js/jquery.infinitecarousel3.min.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript" src="js/jquery.quovolver.js"></script>
-<title>WHI Guest House - Reservations</title>
+<title>WHI Guest Services - Reservations</title>
+<meta name="Description" content="Book a room at WHI Guest Services for free Online" />
+<meta name="Keywords" content="WHI Guest Services online room booking, uganda online room booking, kampala online room booking" />
  </head>
 <body>
 	<div class="main_wrapper1" >

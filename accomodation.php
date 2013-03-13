@@ -7,7 +7,7 @@
 		$email = $_POST['email'];
 		$phone = $_POST['phone'];
 		$room = $_POST['room_type'];
-		$sql = "INSERT INTO custInfo(`firstname`,`lastname`,`email`,`phone`,`roomid`) VALUES ('$fname','$lname','$email','$phone','$room')";
+		$sql = "INSERT INTO custinfo(`firstname`,`lastname`,`email`,`phone`,`roomid`) VALUES ('$fname','$lname','$email','$phone','$room')";
 		$database->query($sql);
 		$flash_data = "Reservation was successful";
 	}
@@ -25,7 +25,9 @@
     <link href="css/lightbox.css" rel="stylesheet" />
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript" src="js/jquery.quovolver.js"></script>
-<title>WHI Guest House - Accomodation</title>
+<title>WHI Guest Services - Accomodation</title>
+<meta name="Description" content="The types of rooms available at WHI Guest Services" />
+<meta name="Keywords" content="Deluxe, Single Room, DOuble Room, WHI Guest Services rooms" />
  </head>
 <body>
 	<div class="main_wrapper1" >

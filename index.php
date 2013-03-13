@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-<title>WHI Guest House</title>
+<title>WHI Guest Services</title>
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="js/jquery.infinitecarousel3.min.js"></script>
 <script src="js/lightbox.js"></script>
@@ -26,6 +26,10 @@
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript" src="js/jquery.quovolver.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+<meta name="Description" content="A Luxury guest house in Kampala,Uganda. 
+Welcome to WHI Guest service, a luxury bed and breakfast in the heart of Kampala. 
+Come as a Guest, Leave as a friend. " />
+<meta name="Keywords" content="WHI Guest Services, Bed and Breakfast, Bukoto, Uganda Accomodation, Accomodation Kampala" />
  </head>
 <body>
 	<div class="main_wrapper1">
@@ -130,7 +134,7 @@
 
 					<div class="gallery2">
 						<h4>Click the banner to vist WHI </h4>
-						<a href="http://www.womens-hospital.net/"> <img src="images/logo-WHI.png"></a>	
+						<a href="http://www.womens-hospital.net/" target="new"> <img src="images/logo-WHI.png"></a>	
 
 					</div>
 					
