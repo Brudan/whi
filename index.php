@@ -7,7 +7,7 @@
 		$email = $_POST['email'];
 		$phone = $_POST['phone'];
 		$room = $_POST['room_type'];
-		$sql = "INSERT INTO custInfo(`firstname`,`lastname`,`email`,`phone`,`roomid`) VALUES ('$fname','$lname','$email','$phone','$room')";
+		$sql = "INSERT INTO custinfo(`firstname`,`lastname`,`email`,`phone`,`roomid`) VALUES ('$fname','$lname','$email','$phone','$room')";
 		$database->query($sql);
 		$flash_data = "Reservation was successful";
 	}

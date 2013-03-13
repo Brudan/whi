@@ -25,7 +25,10 @@
 			</div>
 	<div class="main_wrapper">
 
-	<div class="avail_rooms" >
+	<div class="heading" >
+		<h2><p><b>Admin Section</b></p></h2>
+	</div>
+		<div class="avail_rooms" >
 			<table>
 	<tr><th>Name</th><th>Phone number</th><th>Email address</th><th>Room Booked</th><th>Confirmed</th><th>Delete</th><tr>
 	<?php foreach($customers as $customer){ 
