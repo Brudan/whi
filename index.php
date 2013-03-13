@@ -40,7 +40,6 @@
 				<ul class="nav">
 				<li> <a href="index.php"> <span class ="toptext"> home</span> <span class ="bottomtext"> home</span></a></li>
 				<li> <a href="accomodation.php"> <span class ="toptext"> Accomodations </span> <span class ="bottomtext"> View our rooms</span></a></li>
-				<li> <a href="#"> <span class ="toptext"> Reservations </span> <span class ="bottomtext"> Book a room now</span></a></li>
 				<li> <a href="contact.html"> <span class ="toptext"> Contact Us</span> <span class ="bottomtext"> gives us a Call</span></a></li>
 			</ul>
 
@@ -56,7 +55,7 @@
           <a href="#"><img src="images/6.jpg" alt=""  /></a>
           <img src="images/8.jpg" alt=""  />
           <img src="images/3.jpg" alt=""  />
-          <img src="images/5.jpg" alt=""  />
+          <img src="images/2.jpg" alt=""  />
           <img src="images/6.jpg" alt=""  />
          
           <img src="images/1.jpg" alt=""  />
@@ -68,29 +67,19 @@
 		<div id="mid_content">
 			<div id= "content_left">
 				<h1> A Luxury guest house in Kampala,Uganda. </h1>
-				<h2> Welcome to WHI Guest Services </h2>
-				<p>  Discover a secret gem in the heart of Kampala. <br />
+				<h2> Welcome to WHI Guest service, a luxury bed and breakfast in the heart of Kampala </h2>
+				<p> "Come as a Guest, Leave as a friend" <br />
 					<div>
-						<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at odio ut felis euismod fringilla. Nunc dictum dolor elit, vitae tempor felis. Fusce blandit mattis sem nec tempor. Sed at convallis elit. Fusce congue, sem nec pretium tristique, velit elit auctor tellus, id pulvinar enim lacus eget sem. Mauris et nisl augue, sed porttitor orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-</p>
-
-<p>
-Maecenas purus nisl, ultrices et vulputate id, pretium eu velit. In in nibh quis elit pretium semper sed sed nibh. Fusce ac aliquet erat. Suspendisse eu eros sem. Nullam malesuada tempor ante ut tempor. Aliquam in ipsum augue. Nunc congue lectus at ligula sodales vehicula. Integer at augue turpis, nec dapibus tortor. Pellentesque vestibulum neque id felis dictum et faucibus est facilisis. Integer tempus, dolor id porttitor convallis, dolor justo dignissim purus, in eleifend leo leo eget est.  <br />
-</p>
-
-<p> 
-Morbi adipiscing turpis in ligula consequat venenatis ac et augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris scelerisque libero nec sem facilisis et placerat lorem ultricies. Duis rhoncus sollicitudin nisi, non venenatis nisi aliquam vitae. Maecenas adipiscing aliquet malesuada. Etiam nisi tortor, viverra quis laoreet sit amet, iaculis nec justo. Nunc imperdiet neque ut elit feugiat eget eleifend ligula posuere. Etiam varius faucibus nisi nec condimentum. Duis bibendum tortor nec massa congue porttitor.
-</p>
-
-Stay relaxed, stay productive, and stay in the heart of it all at our Bread and Breakfast.</p>
+<p> Visiting Uganda and looking for a comfortable and homely bed and breakfast in Kampala, consider booking a room at WHI Guest services. A clean and elegant bed and breakfast that offers value for your money.</p>
+ 
+ <p> Located in a quiet area a few minutes' drive to the nearest shopping malls and other service centres. We pride ourselves on professional service and culinary expertise, our focus is always to exceed our guest's expectations.</p>
 
 					</div>
 					<div class="mini_footer">
 						<ul>
-							<li> <a href="#"> <img src="images/about.png"> </a> </li>
-							<li> <a href="#"> <img src="images/contact.png"> </a> </li>
-							<li> <a href="#"> <img src="images/gallery.png"> </a> </li>
+							<li> <a href="index.php"> <img src="images/about.png"> </a> </li>
+							<li> <a href="contact.html"> <img src="images/contact.png"> </a> </li>
+							<li> <a href="accomodation.php"> <img src="images/gallery.png"> </a> </li>
 						</ul>
 					</div>
 
@@ -125,8 +114,8 @@ Stay relaxed, stay productive, and stay in the heart of it all at our Bread and 
 				<div id="gallery">
 					<h3> Gallery </h3>
 					<div class="gallery">
-						<a href="images/1.jpg" rel="lightbox[roadtrip]"> <img src="images/gallery_bg1.png" /> </a>
-						 <a href="images/2.jpg" rel="lightbox[roadtrip]"></a>
+						<a href="images/2.jpg" rel="lightbox[roadtrip]"> <img src="images/gallery_bg1.png" /> </a>
+						 <a href="images/1.jpg" rel="lightbox[roadtrip]"></a>
     					 <a href="images/3.jpg" rel="lightbox[roadtrip]"></a>
     <a href="images/5.jpg" rel="lightbox[roadtrip]"></a>
     <a href="images/6.jpg" rel="lightbox[roadtrip]"></a>
@@ -138,8 +127,8 @@ Stay relaxed, stay productive, and stay in the heart of it all at our Bread and 
 					</div>
 
 					<div class="gallery2">
-						<h4> women hospital international </h4>
-						<a href="#"> <img src="images/logo-WHI.png"></a>	
+						<h4>Click the banner to vist WHI </h4>
+						<a href="http://www.womens-hospital.net/"> <img src="images/logo-WHI.png"></a>	
 
 					</div>
 					

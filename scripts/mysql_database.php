@@ -2,9 +2,9 @@
 
     class mysql_database
     {
-        private $username="whiguest_root";
+        private $username="root";
         private $hostname="localhost";
-        private $password="x,T)?IKnWaH&";
+        private $password="";
         protected $connection;
         protected static $table_name;
         
@@ -43,7 +43,7 @@
             {   /*
 		* If the connection succeeds, try to find the info_share database.
 		*/
-                if(!mysql_selectdb("whiguest_whi", $this->connection))
+                if(!mysql_selectdb("whi", $this->connection))
                 {
                     //If the database is not found, die with this message.
                     die("Sorry: There was an error finding the necessary database");

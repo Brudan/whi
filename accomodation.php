@@ -40,7 +40,7 @@
 				<ul class="nav">
 				<li> <a href="index.php"> <span class ="toptext"> home</span> <span class ="bottomtext"> home</span></a></li>
 				<li> <a href="accomodation.php"> <span class ="toptext"> accomodations </span> <span class ="bottomtext"> View our rooms</span></a></li>
-				<li> <a href="#"> <span class ="toptext"> Reservations </span> <span class ="bottomtext"> Book a room now</span></a></li>
+
 				<li> <a href="contact.html"> <span class ="toptext"> Contact Us</span> <span class ="bottomtext"> gives us a Call</span></a></li>
 			</ul>
 
@@ -49,7 +49,7 @@
 		</div>
 
 	</div>
-	<div class="main_wrapper" style="height: 1450px">
+	<div class="main_wrapper" style="height: 1510px">
 	
 		<div class="slider-wrapper theme-default">
       <div id="slider" class="nivoSlider">
@@ -63,6 +63,15 @@
 		<div id="mid_content">
 			<div id= "content_left">
 				<h1> Accomodation </h1>
+				<p> Our ambition is to satisfy a demanding clientele with high standards of service, cleanliness and
+professionalism, offering the best value for money, while insuring the viability and permanence of our
+business enterprise.
+<br />
+<br />
+Stay with us and enjoy today's modern conveniences in our rooms, including: Cable Television,Internet Access,Laundry services,Telephone services
+and Room service.
+
+</p>
 				<h2> Deluxe Rooms </h2>
 				<p>  Discover a secret gem in the heart of Kampala. <br />
 					<div>
@@ -70,9 +79,9 @@
 							<img src="images/room1.png" />
 
 							<p>
- Whether you want to explore the city or experience an efficient business trip, our Flatiron hotel has the comfortable accommodations, thoughtful amenities and signature NYC style needed to serve as a convenient hub. Enjoy easy access to the Empire State Building, Fifth Avenue shopping, MoMA, and corporations such as Bank of America, JPMorgan Chase and Deloitte, along with unparalleled personal service and amenities.
+ a room with a large/double bed ideally for a 
+Couple. For all those traveling with your loved ones, our double will bring you closer together and ensure that the moments you spend together at home in your own bedroom are the same if not better.
 
-To learn more about our Manhattan luxury hotel, please reach out to one of our friendly team member
 </p>
 						</div>
 
@@ -81,9 +90,7 @@ To learn more about our Manhattan luxury hotel, please reach out to one of our f
 							<img src="images/room2.png" />
 
 							<p>
- Whether you want to explore the city or experience an efficient business trip, our Flatiron hotel has the comfortable accommodations, thoughtful amenities and signature NYC style needed to serve as a convenient hub. Enjoy easy access to the Empire State Building, Fifth Avenue shopping, MoMA, and corporations such as Bank of America, JPMorgan Chase and Deloitte, along with unparalleled personal service and amenities.
-
-To learn more about our Manhattan luxury hotel, please reach out to one of our friendly team member
+a room with a pair of single beds suitable for 2 persons. On a holiday, business trip, medical appointment with a colleague, friend, relative. Our twin rooms will provide you with the best relaxing solution after a busy day
 </p>
 						</div>
 
@@ -92,9 +99,7 @@ To learn more about our Manhattan luxury hotel, please reach out to one of our f
 							<img src="images/room3.png" />
 
 							<p>
- Whether you want to explore the city or experience an efficient business trip, our Flatiron hotel has the comfortable accommodations, thoughtful amenities and signature NYC style needed to serve as a convenient hub. Enjoy easy access to the Empire State Building, Fifth Avenue shopping, MoMA, and corporations such as Bank of America, JPMorgan Chase and Deloitte, along with unparalleled personal service and amenities.
-
-To learn more about our Manhattan luxury hotel, please reach out to one of our friendly team member
+ Wheta room with a single bed suitable for 1 person only. While at our premise you will enjoy out most privacy within your room with round the clock guest support service from our dedicated and professional staff.
 </p>
 						</div>
 
@@ -148,8 +153,8 @@ To learn more about our Manhattan luxury hotel, please reach out to one of our f
 					</div>
 
 					<div class="gallery2">
-						<h4> women hospital international </h4>
-						<a href="#"> <img src="images/logo-WHI.png"></a>	
+						<h4>Click the banner to vist WHI </h4>
+						<a href="http://www.womens-hospital.net/"> <img src="images/logo-WHI.png"></a>	
 
 					</div>
 					

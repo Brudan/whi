@@ -6,7 +6,27 @@
 	$customers = $database->getCustInfo();
 	$rooms = $database->getRoomInfo();
 ?>
-<table>
+
+<html> 
+<head>
+	<link rel="stylesheet" type="text/css" href="master.css">
+<link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<div id = "header">
+				
+				<div class="logo">
+					<img src="images/logo.png" />
+				</div>
+			</div>
+	<div class="main_wrapper">
+
+	<div class="avail_rooms" >
+			<table>
 	<tr><th>Name</th><th>Phone number</th><th>Email address</th><th>Room Booked</th><th>Confirmed</th><th>Delete</th><tr>
 	<?php foreach($customers as $customer){ 
 			if($customer['confirmed'] == 0){
@@ -36,3 +56,36 @@
 	<?php } ?>
 </table>
 <a href="index.php">Logout</a>
+	 </div>
+
+
+	
+ </div>
+ <div id="footer">
+						<div class="align2">
+				<div id="align">
+					<ul class="nav2">
+				<li> <a href="index.php">  Home </a></li>
+				<li> <a href="accomodation.php"> Accomodations  </a></li>
+				<li> <a href="#"> Reservations  </a></li>
+				<li> <a href="contact.html">  Contact Us </a></li>
+				</ul>
+				</div>
+				
+			<div class="address">
+				<p>
+12 East 31st Street <br />
+New York, NY 10016 <br />
+Phone: (212) 889 6363 <br />
+Email: info@hotelchandler.com <br />
+Website Design & Full-Service Hosting by <a href=""> Brudan Digital</a> 
+
+</p>
+
+			</div>
+			</div>
+
+					</div>
+</body>
+
+</html>
