@@ -426,7 +426,22 @@ select{
 }
 
 #reservationpage {
-  width: 100%;
+  width: 600px;
   height: auto;
 }
 
+ th, td
+{
+border: 1px solid #cccccc;
+padding: 10px;
+}
+
+th {
+  background: #54301A;
+  color: #FFF;
+}
+
+#rooms {
+  width: auto;
+  padding-top: 5px;
+}

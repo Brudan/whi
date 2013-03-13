@@ -47,7 +47,7 @@
 	
 		<div class="slider-wrapper theme-default">
       <div id="slider" class="nivoSlider">
-          <a href="#"><img src="images/4.jpg" alt=""  /></a>
+          <a href="#"><img src="images/9.jpg" alt=""  /></a>
  
       
           
@@ -63,10 +63,10 @@
 <p>
 	To learn more about WHI Guest, please reach out to one of our friendly team members. <br /> </p>
 
-<h4> WHI Guest Services </h4>
+<h4> Available Rooms </h4>
 
 <div id="reservationpage">
-<div id="reservation" class="left">
+<div id="reservation" class="left" style="float:right">
 					<h4 class="header"> Make a reservation today </h4>
      <form action="index.php" method="post" enctype="multipart/form-data" id="quote"> 
              <p>
@@ -92,7 +92,7 @@
      </form>
 
 				</div>
-<div class="left2">
+<div  id="rooms" style="width:auto" class="left2" >
 	<table>
 	<tr><th>Room type</th><th>Available rooms</th></tr>
 	<?php foreach($rooms as $room){ ?>
