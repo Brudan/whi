@@ -40,6 +40,8 @@
 				<ul class="nav">
 				<li> <a href="index.php"> <span class ="toptext"> home</span> <span class ="bottomtext"> home</span></a></li>
 				<li> <a href="accomodation.php"> <span class ="toptext"> Accomodations </span> <span class ="bottomtext"> View our rooms</span></a></li>
+				<li> <a href="reservations.php"> <span class ="toptext"> Reservations</span> <span class ="bottomtext"> book a room</span></a></li>
+			
 				<li> <a href="contact.html"> <span class ="toptext"> Contact Us</span> <span class ="bottomtext"> gives us a Call</span></a></li>
 			</ul>
 
@@ -143,7 +145,7 @@
 					<ul class="nav2">
 				<li> <a href="index.php">  Home </a></li>
 				<li> <a href="accomodation.php"> Accomodations  </a></li>
-				<li> <a href="#"> Reservations  </a></li>
+				<li> <a href="reservations.php"> Reservations  </a></li>
 				<li> <a href="contact.html">  Contact Us </a></li>
 				</ul>
 				</div>

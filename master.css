@@ -415,3 +415,18 @@ select{
   background: #54301A;
 }
 
+.left {
+  float: left;
+  width: 300px;
+}
+
+.left2 {
+  float: left;
+  width: 50%;
+}
+
+#reservationpage {
+  width: 100%;
+  height: auto;
+}
+
