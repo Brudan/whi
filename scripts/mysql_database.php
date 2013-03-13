@@ -4,7 +4,7 @@
     {
         private $username="root";
         private $hostname="localhost";
-        private $password="goth123brudan";
+        private $password="";
         protected $connection;
         protected static $table_name;
         
