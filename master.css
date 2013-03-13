@@ -410,14 +410,8 @@ select{
 	opacity: 0.8;
 }
 #footer {
-	height: 110px;
+	height: 150px;
 	width: 100%;
   background: #54301A;
 }
 
-.admin_login {
-  width: 300px;
-  margin: 0 auto;
-  height: 300px;
-  border-radius: 1px solid #CCC;
-}

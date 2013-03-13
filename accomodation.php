@@ -180,10 +180,11 @@ a room with a pair of single beds suitable for 2 persons. On a holiday, business
 				
 			<div class="address">
 				<p>
-12 East 31st Street <br />
-New York, NY 10016 <br />
-Phone: (212) 889 6363 <br />
-Email: info@hotelchandler.com <br />
+Ntinda Road, Bukoto <br />
+P.O. Box 16233 <br />
+Kampala, Uganda <br />
+Email: info@whiguestservices.com <br />
+Tel : + (256) 414-541-361 Tel 2: + (256) 772-520-248 Tel 3: + (256) 312-165-050 <br />
 Website Design & Full-Service Hosting by <a href=""> Brudan Digital</a> 
 
 </p>
