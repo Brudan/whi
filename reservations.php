@@ -18,7 +18,7 @@
 <script src="js/jquery.infinitecarousel3.min.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript" src="js/jquery.quovolver.js"></script>
-
+<title>WHI Guest House - Reservations</title>
  </head>
 <body>
 	<div class="main_wrapper1" >

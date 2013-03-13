@@ -25,7 +25,7 @@
     <link href="css/lightbox.css" rel="stylesheet" />
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript" src="js/jquery.quovolver.js"></script>
-
+<title>WHI Guest House - Accomodation</title>
  </head>
 <body>
 	<div class="main_wrapper1" >

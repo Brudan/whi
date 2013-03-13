@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-
+<title>WHI Guest House</title>
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="js/jquery.infinitecarousel3.min.js"></script>
 <script src="js/lightbox.js"></script>
